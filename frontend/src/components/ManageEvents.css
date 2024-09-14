@@ -1,0 +1,82 @@
+/* Container for the entire manage events section */
+.manage-events-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the manage events section */
+.manage-events-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Event list styling */
+.event-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Event item styling */
+.event-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-item h3 {
+    margin-top: 0;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+    max-width: 400px; /* Limit the width of text */
+    word-wrap: break-word;
+}
+
+/* Button styling */
+.event-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.event-item button:hover {
+    background-color: #c82333;
+}
+
+/* No events message styling */
+.no-events {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+}

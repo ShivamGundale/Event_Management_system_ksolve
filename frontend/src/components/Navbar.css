@@ -1,0 +1,57 @@
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Logo styling */
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    margin-left: 20px; /* Space from the left edge */
+}
+
+/* Navbar heading in the center */
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-center h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Navbar items alignment */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-right li {
+    margin-left: 20px; /* Space between buttons */
+}
+
+button {
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

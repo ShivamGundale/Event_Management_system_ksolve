@@ -1,0 +1,100 @@
+/* Strictly scoped container for the event list section */
+.event-list-container {
+    max-width: 1200px; /* Increased width for better layout */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the event list section */
+.event-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Event list styling with grid layout */
+.event-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+    gap: 20px; /* Space between items */
+}
+
+/* Event item styling */
+.event-list-container .event-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Event title styling */
+.event-list-container .event-item h3 {
+    margin: 0;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Event details styling */
+.event-list-container .event-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Button styling */
+.event-list-container .event-item button {
+    align-self: flex-start;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.event-list-container .event-item button:hover {
+    background-color: #0056b3;
+}
+
+/* RSVP section styling */
+.event-list-container .rsvp-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.event-list-container .rsvp-section h4 {
+    margin-top: 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-list-container .rsvp-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.event-list-container .rsvp-section li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+}
